@@ -1,0 +1,53 @@
+
+#panel, #flip, #panel2 {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+}
+#panel2 {
+  padding: 50px;
+  display:none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #555;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "VT323", monospace;
+  font-size: 0.5rem;
+  color: #fff;
+}
+
+.desc {
+  text-align: center;
+  margin-bottom: 0.1rem;
+  font-size: 0.3rem;
+  color: orange;
+}
+
+input {
+  font-family: inherit;
+  color: inherit;
+  letter-spacing: 3px;
+  background-color: transparent;
+  border: 1px dashed orange;
+  border-radius: 0.5rem;
+  padding: 0.1rem 0.3rem;
+  caret-color: #fff;
+}
+input:focus {
+  border-style: solid;
+  outline: none;
+}
